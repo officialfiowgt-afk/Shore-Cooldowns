@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "shorecooldowns",
+  "version": "${version}",
+  "name": "Shore Cooldowns",
+  "description": "Customizable cooldown display for custom plugin items.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.shorecooldowns.ShoreCooldowns"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
